@@ -1,0 +1,109 @@
+html, body {
+  height: 40%;
+  margin: 10%;
+  padding: 10%;
+  background-color: #202020;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculator {
+  width: 280px;
+  background-image: url("Pcce.jpg");
+  background-size: cover;          
+  background-position: center;     
+  background-repeat: no-repeat;    
+  background-color: #2d2d2d;       
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgb(77, 180, 28);
+}
+
+#display 
+{
+  width: 90%;
+  height: 60px;
+  font-size: 24px;
+  text-align: right;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  background-color: #363636;
+  color: rgb(77, 180, 28);
+}
+
+.buttons 
+{
+  display: grid;
+  grid-template-columns: repeat(4, 58px);
+  grid-gap: 15px;
+}
+
+button {
+  padding: 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  background-color: #000000;
+  color: rgb(77, 180, 28);
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #272727;
+}
+
+button.zero {
+  grid-column: span 2;
+}
+
+.title {
+  text-align: center;
+  color: rgb(77, 180, 28);
+  margin-bottom: 10px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.footer {
+  bottom: 2px;   
+  right: 1px;  
+  text-align:center;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: rgb(77, 180, 28);
+  font-weight: bold; 
+}
+
+.ic
+{
+  padding: 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  background-color: #1f1f1f;
+  color: rgb(77, 180, 28);
+  cursor: pointer;
+  transition: background-color 0.3s;
+  position: right;
+}
+
+.Opbutton
+{
+  color: rgb(255, 0, 0);
+}
+
+.Cbutton
+{
+  background-color: red;
+  color: white;
+}
+
+.Ansbutton
+{
+  background-color: rgb(37, 216, 37);
+  color: white;
+}
